@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import brandImage from '../../assets/react.svg';
+import brandImage from '../../assets/images/logo.svg';
 
 function navbar() {
   return (
