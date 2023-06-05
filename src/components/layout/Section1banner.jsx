@@ -1,16 +1,22 @@
-import React from 'react'
-import Section2sidecontent from './Section2sidecontent'
+import React from 'react';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Banner from '../../assets/images/image-web-3-desktop.jpg';
+import Section2sidecontent from './Section2sidecontent';
 
 const Section1banner = () => {
   return (
-    <div className='container'>
-      <div className='row'>
-        <div className='col'>Banner</div>
-        <div className='col'>
+    <Container fluid>
+      <Row>
+        <Col>
+          <img src={Banner} alt='Banner' />
+        </Col>
+        <Col>
           <Section2sidecontent />
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   )
 }
 
