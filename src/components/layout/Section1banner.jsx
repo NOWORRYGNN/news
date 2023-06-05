@@ -9,12 +9,11 @@ const Section1banner = () => {
   return (
     <Container fluid>
       <Row>
-        <Col>
-          <img src={Banner} alt='Banner' />
-        </Col>
-        <Col>
-          <Section2sidecontent />
-        </Col>
+        <Col><img src={Banner} alt='Banner' /></Col>
+        <Col><Section2sidecontent /></Col>
+      </Row>
+      <Row>
+        <Col>Card</Col>
       </Row>
     </Container>
   )
