@@ -14,8 +14,8 @@ export default function LayoutSection(){
   return (
     <Container fluid>
       <Row className='justify-content-md-center'>
-        <Col sm={8}><Image src={Banner} alt='Banner' fluid /></Col>
-        <Col sm={4}><Section2sidecontent /></Col>
+        <Col xs={12} md={8}><Image src={Banner} alt='Banner' fluid /></Col>
+        <Col md={4}><Section2sidecontent /></Col>
       </Row>
       <Row>
         {/* imageUrl, Number, Tittle, Content */}

@@ -8,10 +8,10 @@ export default function card({imageUrl, Number, Tittle, Content}){
   return (
     <Container fluid>
         <Row>
-            <Col sm={4}><Image src={imageUrl} alt='miniContentImg' /></Col>
+            <Col sm={4}><Image src={imageUrl} alt='miniContentImg' fluid /></Col>
             <Col sm={8}>
-                <p><h1>{Number}</h1></p>
-                <p><h1>{Tittle}</h1></p>
+                <p><h2>{Number}</h2></p>
+                <p><h3>{Tittle}</h3></p>
                 <p>{Content}</p>
             </Col>
         </Row>
