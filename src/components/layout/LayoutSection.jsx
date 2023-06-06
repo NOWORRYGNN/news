@@ -21,7 +21,7 @@ export default function LayoutSection(){
         </Col>
         <Col xs={12} md={3}><Section2sidecontent /></Col>
       </Row>
-      <Row className='ms-1 mt-1 p-5'>
+      <Row className='ms-1 mt-1'>
         {/* imageUrl, Number, Tittle, Content */}
         <Col sm>
           <Card imageUrl={Cimage1} Number="01" Tittle="Reviving Retro PCS" Content="What happens when old PCs are given modern upgrades?" />
