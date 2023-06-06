@@ -12,7 +12,7 @@ const contentImage = () => {
                 the web that claims to put the power of the platforms back 
                 into the hands of the people. But is it really fulfilling its promise?
             </p>
-            <button type="button" className="btn btn-danger text-light fs-4 bg-red mt-4">Read More</button>
+            <button type="button" className="btn btn-warning btn-lg text-secondary fs-6 mt-4">Read More</button>
             </Col>  
         </Row>
   )
