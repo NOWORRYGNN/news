@@ -8,9 +8,9 @@ const Section2sidecontent = () => {
     const selectedId2 = [2];
     const selectedId3 = [3];
     const [content2, setContent] = useState([
-        {id: 1, tittle: 'default', text2: 'default'},
-        {id: 2, tittle: 'default', text2: 'default'},
-        {id: 3, tittle: 'default', text2: 'default'}
+        {id: 1, tittle: 'Hydrogen vs Electric Cars;', text2: 'Will hydrogen-fueled cars ever catch up to EVs?;'},
+        {id: 2, tittle: 'The Downsides of Al Artistry;', text2: 'What are the possible adverse effects of on-demand Al image generation?;'},
+        {id: 3, tittle: 'Is VC Funding Drying Up?;', text2: 'Private funding by VC firms is down 50% YOY. We take a look at what that mean;'}
     ]);
     useEffect(() => {
         Api.get('/contentData').then(res => {
