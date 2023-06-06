@@ -8,7 +8,7 @@ function navbar() {
   return (
     <>
       {['md'].map((expand) => (
-        <Navbar key={expand} bg="white" expand={expand} className="mb-3 p-4">
+        <Navbar key={expand} bg="white" expand={expand} className="ms-2 mb-1 p-5 mt-0">
           <Container fluid>
             <Navbar.Brand href="#">
                 <img src={brandImage} alt='brandImage' />

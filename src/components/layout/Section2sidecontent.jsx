@@ -20,25 +20,28 @@ const Section2sidecontent = () => {
     const res = selectedId.map((id) => content2.find((o) => o.id === id));    
     const res2 = selectedId2.map((id) => content2.find((o) => o.id === id)); 
     const res3 = selectedId3.map((id) => content2.find((o) => o.id === id)); 
-
+    // const id1 = Object.keys(content2);
     // console.log(res)
     return (
         <>
-        <Stack direction='vertical' gap-3 className='bg-black p-5'>
-            <div className="mb-4 mt-1" style={{color: 'yellow'}}><h1>New</h1></div>
+        <Stack direction='vertical' className='bg-black p-4 gap-4'>
+            <div className="mb-1 mt-1" style={{color: 'yellow'}}><h2>New</h2></div>
             <Content 
-                tittle={res.map(res => <div>{res.tittle}</div>)} 
-                text2={res.map(res => <div>{res.text2}</div>)} 
+                tittle1={res.map(res => <div>{res.tittle}</div>)} 
+                text1={res.map(res => <div>{res.text2}</div>)}
+                key1={selectedId}
             />
             <hr style={{color: 'white'}} />
             <Content 
-                tittle={res2.map(res2 => <div>{res2.tittle}</div>)} 
-                text2={res2.map(res2 => <div>{res2.text2}</div>)} 
+                tittle2={res2.map(res2 => <div>{res2.tittle}</div>)} 
+                text2={res2.map(res2 => <div>{res2.text2}</div>)}
+                key2={selectedId2}
             />
             <hr style={{color: 'white'}}/>
             <Content 
-                tittle={res3.map(res3 => <div>{res3.tittle}</div>)} 
-                text2={res3.map(res3 => <div>{res3.text2}</div>)} 
+                tittle3={res3.map(res3 => <div>{res3.tittle}</div>)} 
+                text3={res3.map(res3 => <div>{res3.text2}</div>)}
+                key3={selectedId3}
             />
         </Stack>
         </>

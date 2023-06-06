@@ -5,14 +5,14 @@ import Image from 'react-bootstrap/Image';
 
 export default function card({imageUrl, Number, Tittle, Content}){
   return (
-      <Stack direction='horizontal' gap={3} className='p-1'>
+      <Stack direction='horizontal' className='gap-3'>
         <div>
-          <Image src={imageUrl} alt='miniContentImg' width={100} fluid />
+          <Image src={imageUrl} alt='miniContentImg' width={120} />
         </div>
         <div>
-          <h2>{Number}</h2>
-          <h3>{Tittle}</h3>
-          <p>{Content}</p>
+          <p className='text-secondary fw-bold fs-4'>{Number}</p>
+          <p className='font-weight-bold fs-5'>{Tittle}</p>
+          <p className='text-secondary fs-6'>{Content}</p>
         </div>
       </Stack>
 
