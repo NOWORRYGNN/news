@@ -1,18 +1,1 @@
-{
-    "version": 2,
-    "builds": [
-      {
-        "src": "./src/api/contentData-api.js",
-        "use": "@vercel/node",
-        "config": {
-          "includeFiles": ["./database/data.json"]
-        }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "./src/api/contentData-api.js"
-      }
-    ]
-  }
+{ "version": 2, "functions": { "/src/App.jsx":{ "maxDuration":10 } } }
