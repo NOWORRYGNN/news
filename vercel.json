@@ -1,1 +1,1 @@
-{ "version": 2, "functions": { "/src/App.jsx":{ "maxDuration":10 } } }
+{ "version": 2, "functions": { "./src/App.jsx":{ "maxDuration":10 } } }
