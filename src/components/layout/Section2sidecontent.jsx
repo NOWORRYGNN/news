@@ -5,9 +5,9 @@ import Row from 'react-bootstrap/Row';
 
 const Section2sidecontent = () => {
   return (
-    <Container fluid>
+    <Container fluid className='bg-dark'>
         <Row>
-            <Col><h1>New</h1></Col>
+            <Col><h1 style={{color: 'yellow'}}>New</h1></Col>
             <Col></Col>
             <Col></Col>
             <Col></Col>
