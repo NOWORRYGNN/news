@@ -1,12 +1,14 @@
 import React from 'react'
-import Section1banner from './Section1banner'
+import LayoutSection from './LayoutSection'
+import Footer from './footer'
 import Navbar from './navbar'
 
 const mainPages = () => {
   return (
     <div>
         <Navbar />
-        <Section1banner />
+        <LayoutSection />
+        <Footer />
     </div>
   )
 }
