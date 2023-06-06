@@ -10,8 +10,8 @@ export default function card({imageUrl, Number, Tittle, Content}){
           <Image src={imageUrl} alt='miniContentImg' width={100} fluid />
         </div>
         <div>
-          <p><h2>{Number}</h2></p>
-          <p><h3>{Tittle}</h3></p>
+          <h2>{Number}</h2>
+          <h3>{Tittle}</h3>
           <p>{Content}</p>
         </div>
       </Stack>
