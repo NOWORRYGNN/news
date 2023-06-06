@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 const Section2sidecontent = () => {
   return (
-    <div>Section2sidecontent</div>
+    <Container fluid>
+        <Row>
+            <Col><h1>New</h1></Col>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+        </Row>
+    </Container>
   )
 }
 
