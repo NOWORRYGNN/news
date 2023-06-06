@@ -12,12 +12,12 @@ import Section2sidecontent from './Section2sidecontent';
 
 export default function LayoutSection(){
   return (
-    <Container fluid>
+    <Container fluid className='p-5'>
       <Row className='justify-content-md-center'>
         <Col xs={12} md={8}><Image src={Banner} alt='Banner' fluid /></Col>
         <Col md={4}><Section2sidecontent /></Col>
       </Row>
-      <Row>
+      <Row className='mt-5'>
         {/* imageUrl, Number, Tittle, Content */}
         <Col sm>
           <Card imageUrl={Cimage1} Number="01" Tittle="Test1" Content="Tsts1" />
